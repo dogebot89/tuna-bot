@@ -1,7 +1,7 @@
 {
-  "name": "Zim-bot",
+  "name": "𝐃𝐫𝐢𝐩𝐬-bot",
   "version": "1.0.0",
-  "description": "Multi device wa bot created by Zim Bot Inc.",
+  "description": "Multi device wa bot created by 𝐃𝐫𝐢𝐩𝐬.",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
