@@ -4,10 +4,10 @@
 //https://github.com/zim-bot
 //~you can recode or copy the codes but give
 //credit.
-//~+27634090203
+//~+918188019676
 //֎֎֎֎֎֎֎֎֎֎֎֎֎֎֎֎֎֎֎֎
 
-//https.wa.me/27634090203[modules]https.wa.me/27634090203\\
+//https.wa.me/918188019676[modules]https.wa.me/918188019676\\
 require('./config')
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
 const fs = require('fs')
@@ -27,13 +27,13 @@ const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, 
 let { addLevelingId, addLevelingLevel, addLevelingXp, getLevelingId, getLevelingLevel, getLevelingXp } = require("./lib/lvlfunction")
 const speedofbot = require("performance-now")
 
-//https.wa.me/27634090203[thumb]https.wa.me/27634090203\\
+//https.wa.me/918188019676[thumb]https.wa.me/918188019676\\
 let drips = fs.readFileSync('./Zimbot/drips.jpg')
 
-//https.wa.me/27634090203[database]https.wa.me/27634090203\\
+//https.wa.me/918188019676[database]https.wa.me/918188019676\\
 const antilink = JSON.parse(fs.readFileSync('./database/antilink.json'))
 
-//https.wa.me/27634090203[database reader]https.wa.me/27634090203\\
+//https.wa.me/918188019676[database reader]https.wa.me/918188019676\\
 global.db = JSON.parse(fs.readFileSync('./src/database.json'))
 if (global.db) global.db = {
     sticker: {},
@@ -73,7 +73,7 @@ module.exports = ZimBotInc = async (ZimBotInc, m, chatUpdate, store) => {
         const mime = (quoted.msg || quoted).mimetype || ''
 	    const isMedia = /image|video|sticker|audio/.test(mime)
 	
-//https.wa.me/27634090203[gc]https.wa.me/27634090203\\
+//https.wa.me/918188019676[gc]https.wa.me/918188019676\\
         const groupMetadata = m.isGroup ? await ZimBotInc.groupMetadata(m.chat).catch(e => {}) : ''
         const groupName = m.isGroup ? groupMetadata.subject : ''
         const isAntiLink = m.isGroup ? antilink.includes(m.chat) : false
@@ -98,7 +98,7 @@ var sDisplay = s > 0 ? s + (s == 1 ? " second" : " Second") : "";
 return dDisplay + hDisplay + mDisplay + sDisplay;
 }
 	
-//https.wa.me/27634090203[target]https.wa.me/27634090203\\
+//https.wa.me/918188019676[target]https.wa.me/918188019676\\
 	const reply = (teks) => {
             ZimBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Join Zim Bot Support GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./Zimbot/drips.jpg`),"sourceUrl": "https://chat.whatsapp.com/EFsb8RCXV4jLEFk4eAcA1A"}}}, { quoted: m})
         }
@@ -134,7 +134,7 @@ try {
         }
 	    
 
-//https.wa.me/27634090203[public/self]https.wa.me/27634090203\\
+//https.wa.me/918188019676[public/self]https.wa.me/918188019676\\
         if (!ZimBotInc.public) {
             if (!m.key.fromMe) return
         }
@@ -145,7 +145,7 @@ try {
             console.log(chalk.black(chalk.bgWhite('[ZIM BOT INC]')), chalk.black(chalk.bgGreen(new Date)), chalk.black(chalk.bgBlue(budy || m.mtype)) + '\n' + chalk.magenta('=> From'), chalk.green(pushname), chalk.yellow(m.sender) + '\n' + chalk.blueBright('=> In'), chalk.green(m.isGroup ? pushname : 'Private Chat', m.chat))
         }
 	
-//https.wa.me/27634090203[level(incomplete, still in devment)]https.wa.me/27634090203\\
+//https.wa.me/918188019676[level(incomplete, still in devment)]https.wa.me/918188019676\\
 const levelRole = getLevelingLevel(m.sender)
 	  var role = 'bronz'
 	  if (levelRole <= 3) {
@@ -159,27 +159,27 @@ const levelRole = getLevelingLevel(m.sender)
 	  } else if (levelRole <= 12) {
 	role = 'Platinum'
 	  } else if (levelRole <= 15) {
-	role = 'Mithril'
+	role = 'Diamond'
 	  } else if (levelRole <= 18) {
-	role = 'Orichalcum'
+	role = 'Heroik'
 	  } else if (levelRole <= 25) {
-	role = 'Adamantite'
+	role = 'Master'
 	  } else if (levelRole <= 45) {
-	role = 'Good In Game'
+	role = 'Grand-Master'
 	  }
 	
 //https.wa.me/27634090203[Antilink]https.wa.me/27634090203\\
 	if (isAntiLink) 
 if (budy.includes('https://chat.whatsapp.com/')) {
                if (!m.key.fromMe) {
-               reply('[𝗭𝗜𝗠 𝗕𝗢𝗧 𝗔𝗡𝗧𝗜𝗟𝗜𝗡𝗞]\n𝗟𝗶𝗻𝗸 𝗻𝗼𝘁 𝗮𝗹𝗹𝗼𝘄𝗲𝗱 𝗵𝗲𝗿𝗲, 𝗢𝗞𝘆?..,\n𝗚𝗼𝗼𝗱 𝗯𝘆𝗲 𝗜𝗺 𝗸𝗶𝗰𝗸𝗶𝗻𝗴 𝘂𝗿 𝗮𝘀𝘀 𝗻𝗼𝘄👋🏻')
+               reply('[𝐃𝐫𝐢𝐩𝐬 𝗕𝗢𝗧 𝗔𝗡𝗧𝗜𝗟𝗜𝗡𝗞]\n𝗟𝗶𝗻𝗸 𝗻𝗼𝘁 𝗮𝗹𝗹𝗼𝘄𝗲𝗱 𝗵𝗲𝗿𝗲, 𝗢𝗞𝘆?..,\n𝗚𝗼𝗼𝗱 𝗯𝘆𝗲 𝗜𝗺 𝗸𝗶𝗰𝗸𝗶𝗻𝗴 𝘂𝗿 𝗮𝘀𝘀 𝗻𝗼𝘄👋🏻')
                let sianj = m.sender
                await ZimBotInc.groupParticipantsUpdate(m.chat, [sianj], 'remove').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
                }
 	  }
 	if (db.chats[m.chat].wame) {
         if (budy.match(`wa.me/`)) {
-        m.reply(`「𝗭𝗜𝗠 𝗕𝗢𝗧 𝗔𝗡𝗧𝗜𝗟𝗜𝗡𝗞」\n\n𝗬𝗼𝘂 𝗵𝗮𝘃𝗲 𝘀𝗲𝗻𝗱 𝘄𝗮.𝗺𝗲 𝗹𝗶𝗻𝗸, 𝗻𝗼 𝘁𝗶𝗺𝗲 𝘁𝗼 𝘄𝗮𝘀𝘁𝗲 𝘂𝗮 𝗼𝘂𝘁!`)
+        m.reply(`「𝐃𝐫𝐢𝐩𝐬 𝗕𝗢𝗧 𝗔𝗡𝗧𝗜𝗟𝗜𝗡𝗞」\n\n𝗬𝗼𝘂 𝗵𝗮𝘃𝗲 𝘀𝗲𝗻𝗱 𝘄𝗮.𝗺𝗲 𝗹𝗶𝗻𝗸, 𝗻𝗼 𝘁𝗶𝗺𝗲 𝘁𝗼 𝘄𝗮𝘀𝘁𝗲 𝘂𝗮 𝗼𝘂𝘁!`)
           if (!isBotAdmins) return m.reply(`𝘡𝘪𝘮 𝘉𝘰𝘵 𝘮𝘶𝘴𝘵 𝘣𝘦 𝘢𝘥𝘮𝘪𝘯 𝘧𝘪𝘳𝘴𝘵😚`)
         let gclink = (`https://wa.me/`)
         let isLinkThisGc = new RegExp(gclink, 'i')
@@ -190,11 +190,11 @@ if (budy.includes('https://chat.whatsapp.com/')) {
         ZimBotInc.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
         }
         }
-//https.wa.me/27634090203[mute chat]https.wa.me/27634090203\\
+//https.wa.me/918188019676[mute chat]https.wa.me/918188019676\\
       if (db.chats[m.chat].mute && !isAdmins && !isCreator) {
       return
       }
-//https.wa.me/27634090203[write database every 1min]https.wa.me/27634090203\\
+//https.wa.me/918188019676[write database every 1min]https.wa.me/918188019676\\
 	setInterval(() => {
             fs.writeFileSync('./src/database.json', JSON.stringify(global.db, null, 2))
         }, 60 * 1000)
@@ -211,7 +211,7 @@ if (budy.includes('https://chat.whatsapp.com/')) {
             timezone: "Africa/Harare"
         })
 	    
-//https.wa.me/27634090203[respond cmd with media]https.wa.me/27634090203\\
+//https.wa.me/918188019676[respond cmd with media]https.wa.me/918188019676\\
         if (isMedia && m.msg.fileSha256 && (m.msg.fileSha256.toString('base64') in global.db.sticker)) {
         let hash = global.db.sticker[m.msg.fileSha256.toString('base64')]
         let { text, mentionedJid } = hash
@@ -327,7 +327,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             } else reply('*Wrong Answer!*')
         }
         
-//https.wa.me/27634090203[tictactoe]https.wa.me/27634090203\\
+//https.wa.me/918188019676[tictactoe]https.wa.me/918188019676\\
 	    this.game = this.game ? this.game : {}
 	    let room = Object.values(this.game).find(room => room.id && room.game && room.state && room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender) && room.state == 'PLAYING')
 	    if (room) {
@@ -392,7 +392,7 @@ Type *give up* to surrender and admit defeat`
 	    }
 	    }
 
-//https.wa.me/27634090203[suit]https.wa.me/27634090203\\
+//https.wa.me/918188019676[suit]https.wa.me/918188019676\\
 	    this.suit = this.suit ? this.suit : {}
 	    let roof = Object.values(this.suit).find(roof => roof.id && roof.status && [roof.p, roof.p2].includes(m.sender))
 	    if (roof) {
@@ -1210,16 +1210,16 @@ case 'antilink':
                     let btn = [{
                                 urlButton: {
                                     displayText: 'SUBSCRIBE',
-                                    url: 'https://github.com/zim-bot/tuna-bot'
+                                    url: 'https://github.com/dogebot89/tuna-bot'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'OWNER',
-                                    phoneNumber: '+27 634-090-0203'
+                                    phoneNumber: '+91 8188 019 676'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'ZIMBOT STATUS',
+                                    displayText: '𝐃𝐫𝐢𝐩𝐬BOT STATUS',
                                     id: 'ping'
                                 }
                             }, {
@@ -1250,7 +1250,7 @@ case 'antilink':
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'GITHUB',
-                                    url: 'https://github.com/zim-bot/tuna-bot'
+                                    url: 'https://github.com/dogebot89/tuna-bot'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2305,13 +2305,13 @@ case 'sendkontak': case 'sendcontact': {
             case 'public': {
                 if (!isCreator) throw mess.owner
                 ZimBotInc.public = true
-                reply('𝗭𝗶𝗺 𝗯𝗼𝘁 𝗻𝗼𝘄 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗮𝘀 𝗽𝘂𝗯𝗹𝗶𝗰')
+                reply('𝐃𝐫𝐢𝐩𝐬 𝗯𝗼𝘁 𝗻𝗼𝘄 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗮𝘀 𝗽𝘂𝗯𝗹𝗶𝗰')
             }
             break
             case 'self': {
                 if (!isCreator) throw mess.owner
                 ZimBotInc.public = false
-                reply('𝗭𝗶𝗺 𝗯𝗼𝘁 𝗻𝗼𝘄 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗮𝘀 𝗽𝗿𝗶𝘃𝗮𝘁𝗲')
+                reply('𝐃𝐫𝐢𝐩𝐬 𝗯𝗼𝘁 𝗻𝗼𝘄 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗮𝘀 𝗽𝗿𝗶𝘃𝗮𝘁𝗲')
             }
             break
             case 'ping': case 'botstatus': case 'statusbot': {
@@ -2392,7 +2392,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             }, {
                             	urlButton: {
                                 displayText: 'GITHUB',
-                                    url: 'https://github.com/zim-bot/tuna-bot'
+                                    url: 'https://github.com/dogebot89/tuna-bot'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2435,7 +2435,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 │
 │💎𝗥𝗨𝗡𝗧𝗜𝗠𝗘 : ${runtime(process.uptime())}
 │
-│💎𝗕𝗢𝗧 𝗡𝗔𝗠𝗘 : ZIM BOT  INC
+│💎𝗕𝗢𝗧 𝗡𝗔𝗠𝗘 : 𝐃𝐫𝐢𝐩𝐬 BOT  INC
 │
 │💎𝗢𝗪𝗡𝗘𝗥 𝗡𝗔𝗠𝗘: DRIPS
 ┃
@@ -2455,7 +2455,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             }, {
                             	urlButton: {
                                 displayText: 'GITHUB',
-                                    url: 'https://github.com/zim-bot/tuna-bot'
+                                    url: 'https://github.com/dogebot89/tuna-bot'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2492,7 +2492,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "GROUP CMD",
-										"description": "Zim-Bot Group Features",
+										"description": "𝐃𝐫𝐢𝐩𝐬-Bot Group Features",
 										"rowId": `${prefix}grupmenu`
 									}
 								]
@@ -2502,47 +2502,47 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "MENU CMD",
-										"description": "Zim-Bot All The Features!",
+										"description": "𝐃𝐫𝐢𝐩𝐬-Bot All The Features!",
 										"rowId": `${prefix}allmenu`
 									},
 									{
 										"title": "DOWNLOAD CMD",
-										"description": "Zim-Bot Download Features",
+										"description": "𝐃𝐫𝐢𝐩𝐬-Bot Download Features",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
 										"title": "SEARCH CMD",
-										"description": "Zim-Bot Searching Features",
+										"description": "𝐃𝐫𝐢𝐩𝐬-Bot Searching Features",
 										"rowId": `${prefix}searchmenu`
 									},
 										{
 											"title": "IMAGE CMD",
-										"description": "Zim-bot Image Features",
+										"description": "𝐃𝐫𝐢𝐩𝐬-bot Image Features",
 										"rowId": `${prefix}imagemenu`
 										},
 										{
 											"title": "FUN CMD",
-										"description": "Zim-Bot Fun Features",
+										"description": "𝐃𝐫𝐢𝐩𝐬-Bot Fun Features",
 										"rowId": `${prefix}funmenu`
 										},
 										{
 											"title": "CONVERT CMD",
-										"description": "Zim-Bot Convert Features",
+										"description": "𝐃𝐫𝐢𝐩𝐬-Bot Convert Features",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
 										"title": "MISCELLANEOUS CMD",
-										"description": "Zim-Bot Miscellaneous Features",
+										"description": "𝐃𝐫𝐢𝐩𝐬-Bot Miscellaneous Features",
 										"rowId": `${prefix}nocategorymenu`
 										},
 										{
 											"title": "DATABASE CMD",
-										"description": "Zim-Bot Database Features",
+										"description": "𝐃𝐫𝐢𝐩𝐬-Bot Database Features",
 										"rowId": `${prefix}databasemenu`
 										},
 										{
 											"title": "VOICE CMD",
-										"description": "Zim-Bot Changing Features",
+										"description": "𝐃𝐫𝐢𝐩𝐬-Bot Changing Features",
 										"rowId": `${prefix}voicemenu`
 										}
 								]
@@ -2562,7 +2562,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "SYSTEM CMD",
-										"description": "Zim-Bot Group System Features",
+										"description": "𝐃𝐫𝐢𝐩𝐬-Bot Group System Features",
 										"rowId": `${prefix}sistemmenu`
 									}
 								]
@@ -2572,7 +2572,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "OWNER CMD",
-										"description": "Zim-Bot Owner Features",
+										"description": "𝐃𝐫𝐢𝐩𝐬-Bot Owner Features",
 										"rowId": `${prefix}ownermenu`
 									}
 								]
@@ -2581,8 +2581,8 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "CREDIT",
 								"rows": [
 									{
-										"title": "ZIM BOT CREDITS",
-										"description": "Zim-Bot Credits !!",
+										"title": "𝐃𝐫𝐢𝐩𝐬 BOT CREDITS",
+										"description": "𝐃𝐫𝐢𝐩𝐬-Bot Credits !!",
 										"rowId": `${prefix}tqtt`
 									}
 								]
