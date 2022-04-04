@@ -61,10 +61,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zim-bot/tuna-bot.git"
+    "url": "git+https://github.com/dogebot89/tuna-bot.git"
   },
   "bugs": {
-    "url": "https://github.com/zim-bot/tuna-bot/issues"
+    "url": "https://github.com/dogebot89/tuna-bot/issues"
   },
-  "homepage": "https://github.com/zim-bot/tuna-bot#readme"
+  "homepage": "https://github.com/dogebot89/tuna-bot#readme"
 }
