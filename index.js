@@ -4,7 +4,7 @@
 //or put my channel link in the description.
 //~you can recode or copy the codes but give
 //credit.
-//https://wa.me/+27634090203 
+//https://wa.me/+918188019676 
 //Drips Memes
 
 //═══════[modules]════════\\
